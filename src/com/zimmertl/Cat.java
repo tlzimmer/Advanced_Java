@@ -2,6 +2,7 @@ package com.zimmertl;
 
 /**
  * Created by mgreen14 on 12/27/17.
+ * Modified by tzimmer on 7/14/18.
  */
 public class Cat extends Pet implements Talkable {
     private int mousesKilled;
