@@ -2,6 +2,13 @@ package com.zimmertl;
 
 import java.util.ArrayList;
 
+/**
+ * The program creates a 'zoo' of talking objects and writes them to a file
+ *   then reads the same file. In both reading and writing, it writes a representation
+ *   of the object to System.out
+ * @author Matt Green
+ * @version 1.0
+ */
 public class Main {
 
     private final static FileOutput outFile = new FileOutput("animals.txt");
